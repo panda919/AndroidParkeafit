@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- incluimos el layout del app bar -->
+    <include
+
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+    <!-- Aquí va la imagen que se ve en la clase principal con el logo de la universdad -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eafit4"
+        android:id="@+id/imgppal"
+        android:layout_below="@+id/app_bar" />
+
+
+
+    <!-- ésta es la lista que contiene los parqueaderos -->
+
+    <ListView
+        android:layout_below="@+id/imgppal"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:id="@+id/lista"
+        android:layout_weight="0.79" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Powered by Sebastián Delgado."
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/lista"
+        android:layout_alignRight="@+id/lista"
+        android:layout_alignEnd="@+id/lista" />
+
+
+</RelativeLayout>

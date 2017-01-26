@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+
+    <!-- incluimos el layout del app bar -->
+    <include
+
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+
+
+    <!-- Aquí va la vista de el streaming de la camara -->
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:id="@+id/camaraRegionalSur"
+        android:layout_below="@+id/app_bar" />
+
+    <!-- Aquí va la imagen que contiene la tabla con el horario y precio -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/horparqueaderos"
+        android:id="@+id/tablaVegas"
+        android:layout_below="@+id/camaraRegionalSur" />
+
+
+
+</LinearLayout>

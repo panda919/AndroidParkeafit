@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/picoplaca"
+        android:title="@string/picoplaca"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/contactomenu"
+        android:title="@string/contacto"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrincipal">#01579B</color>
+    <color name="colorPrincipalOscuro">#01579B</color>
+    <color name="colorDeAcento">#FFFFFF</color>
+
+</resources>

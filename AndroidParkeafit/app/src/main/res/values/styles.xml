@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- Se usa el style de la libreria appcompat y como parent se usa el style creado abajo, que contiene el material disgn-->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+
+    <!-- Se hace un nuevo Style para que funcione en las nuevas versiones de lolipop -->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <!-- Agrego los colores que se van a usar -->
+
+        <item name="colorPrimary">@color/colorPrincipal</item>
+        <item name="colorPrimaryDark">@color/colorPrincipalOscuro</item>
+        <item name="colorAccent">@color/colorDeAcento</item>
+
+
+    </style>
+
+
+
+
+    <!-- Creo un style nuevo para modificar los elementos del app_bar (color de letras y color de los puntitos del menu) -->
+    
+    <style name="customAppbar" parent="ThemeOverlay.AppCompat.Light">
+        
+        <item name="android:textColorPrimary">@color/colorDeAcento</item>
+        <item name="android:textColorSecondary">@color/colorDeAcento</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+</resources>

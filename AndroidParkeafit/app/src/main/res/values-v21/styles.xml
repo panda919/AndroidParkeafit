@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- este styles.xml es para los dispositivos con lolipop -->
+
+    <!-- se usa como parent AppTheme.base de styles (tiene el material disgn) -->
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+        <item name="android:colorPrimary">@color/colorPrincipal</item>
+        <item name="android:colorPrimaryDark">@color/colorPrincipalOscuro</item>
+        <item name="android:colorAccent">@color/colorDeAcento</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+    <!-- Creo un style nuevo para modificar los elementos del app_bar (color de letras y color de los puntitos del menu) -->
+
+    <style name="customAppbar" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:textColorPrimary">@color/colorDeAcento</item>
+        <item name="android:textColorSecondary">@color/colorDeAcento</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+</resources>
